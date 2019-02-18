@@ -1,7 +1,12 @@
 public  Number class{
 int num =  7;
-public void  getNUmber(){
- return  num;
-}
+
+  public int setNumber(int num){
+       this.num = num;
+  }  
+ 
+  public void  getNUmber(){
+     return  num;
+   }
 
 }
